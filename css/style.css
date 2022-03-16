@@ -1,0 +1,137 @@
+body {
+	margin: 0;
+
+	background: url("../image/321.jpg") no-repeat;
+
+	font-falily: Tahoma;
+	line-height: 1.5;
+	font-size: 18px;
+}
+.card {
+	width: 400px;
+	margin: 30px auto;
+	padding: 20px;
+
+	background-color: #f5efef;
+	box-shadow: 0 5px 10px #ccc;
+	border-radius: 19px;
+}
+.card_resume {
+	font-size: 24px;
+	text-align: center;
+	color: #000;
+}
+
+.card_photo {
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.card_tittle {
+	font-size: 20px;
+	text-align: center;
+	color: #000;
+}
+
+.card_text {
+	font-size: 14px;
+}
+
+.card_subtitle {
+	font-size: 18px;
+	color: #315fc7;
+}
+
+.card_list {
+	padding-left: 0;
+	list-style-position: inside;
+	font-size: 14px;
+
+}
+
+.telefon {
+	width: 50px;
+	height: 50px;
+	padding: 2px;
+}
+
+.email
+{
+	width: 50px;
+	height: 50px;
+}
+
+.instagram
+{
+	margin-left: 5px;
+	width: 50px;
+	height: 50px;
+}
+
+nav{
+	width:960px;
+	margin: 0 950px;
+}
+nav:before {
+	content:'';
+	display:block;
+	height:50px;
+	width: 100%;
+	background:#000;
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index:-1;
+}
+
+.menu{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+  height: 50px;
+}
+
+
+.menu li{
+  width: 200px;
+  list-style: none;
+  background: #fff;
+  position: relative;
+}
+
+.menu a {
+	background: #000;
+  color: #ffffff;
+    display: block;
+     height: 50px;
+     padding: 0 30px;
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+}
+
+.menu a:hover {
+  background: #d34d43;
+}
+
+.menu ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  padding: 0;
+}
+
+.menu li:hover > ul {
+  display: block;
+}
+
+.menu ul ul {
+  display: none;
+  top: 0;
+  left: 100%;
+}

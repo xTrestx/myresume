@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+
+	background: url("../image/321.jpg") no-repeat;
+
+	font-falily: Tahoma;
+	leni-height: 1.5;
+	font-size: 18px;
+}
+
+.card_tittle {
+	font-size: 20px;
+	text-align: center;
+	color: #000;
+}
+
+.card_text {
+	font-size: 14px;
+}
+
+.card_subtitle {
+	font-size: 24px;
+	color: #000000;
+			margin-left:auto;
+	margin-right:auto;
+	width: 20em;
+}
+
+.card_list {
+	font-size: 16px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 30em;
+color: #FFFFFF;
+}
+
+
+.menu {
+	width:960px;
+	margin: 0 auto;
+}
+
+nav:before {
+	content:'';
+	display:block;
+	height:50px;
+	width: 100%;
+	background:#000;
+	position:absolute;
+	left:0;
+	z-index:-1;
+}
+
+.ul1 {
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:50px;
+}
+
+.class1 {
+	float:right;
+}
+
+.a1{
+	color:#fff;
+	display:block;
+	height:50px;
+	padding:0 30px;
+	text-decoration:none;
+	line-height:50px;
+}
+
+.a1:hover {
+	background:#d34d43;
+}
+
+.zav2 {
+		font-size: 16px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 30em;
+color: #FFFFFF;
+}
