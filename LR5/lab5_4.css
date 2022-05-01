@@ -1,0 +1,74 @@
+.calc {
+	margin: 50px auto;
+	width:400px;
+	height:700px;
+	border: 1px solid #000;
+	border-radius: 20px;
+	font-family: Arial;
+	padding: 18px;
+	box-shadow: 4px 4px 4px #4f4f4f;
+	position: relative;
+}
+
+.button {
+	height: 85px;
+	width: 85px;
+	background: #fdfdfd;
+	color: #000;
+	border-radius: 20%;
+	text-align: center;
+	line-height: 90px;
+	cursor: pointer;
+	user-select: none;
+	float: left;
+	margin: 5px;
+	border: 1px solid #000;
+}
+
+.button:hover {
+	filter: brightness(150%);
+}
+
+.button:active {
+	filter: brightness(50%);
+}
+
+.buttons {
+	height: 400px;
+	width: 400px;
+position: absolute;
+	bottom: 10px;
+	
+}
+
+input {
+	border-radius: 5%;
+	width:390px;
+	height:40px;
+	position: absolute;
+	top: 150px;
+	text-align: right;
+	border: 1px solid #5e9c9e;
+}
+
+.casio3234{
+	width:436px;
+	height:60px;
+	background-color: #5e9c9e;
+	text-align: right;
+	font: 24pt sans-serif;
+	color: white;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 0;
+}
+
+.vuvid {
+	width:200px;
+	height:50px;
+	background-color: #5e9c9e;
+	position: absolute;
+	top: 230px;
+	right: 0;
+}
