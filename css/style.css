@@ -6,7 +6,6 @@ body {
    -moz-background-size: cover;
      -o-background-size: cover;
         background-size: cover;
-	font-falily: Tahoma;
 	line-height: 1.5;
 	font-size: 18px;
 }
@@ -14,10 +13,12 @@ body {
 	width: 400px;
 	margin: 30px auto;
 	padding: 20px;
-
 	background-color: #f5efef;
 	box-shadow: 0 5px 10px #ccc;
 	border-radius: 19px;
+	position: absolute;
+	top: 25px;
+	left: 40%;
 }
 .card_resume {
 	font-size: 24px;
@@ -96,6 +97,9 @@ nav:before {
   padding: 0;
   list-style: 0;
   height: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
 }
 
 
