@@ -17,8 +17,10 @@ body {
 	box-shadow: 0 5px 10px #ccc;
 	border-radius: 19px;
 	position: absolute;
-	top: 25px;
-	left: 40%;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    top: 60px;
 }
 .card_resume {
 	font-size: 24px;
@@ -100,7 +102,7 @@ nav:before {
   position: fixed;
   right: 0;
   top: 0;
-z-index: 1;
+  z-index: 1;
 }
 
 
