@@ -1,0 +1,39 @@
+ul {
+    font-size: 200%;
+    list-style: none;
+}
+li a div {
+background: url("../LR7/sprite.png") no-repeat;
+display: inline-block;
+height: 100px;
+width: 100px;
+}
+li:nth-child(1) a div {
+background-position: 0 -100px;
+}
+
+li:nth-child(1) a:hover div {
+    background-position: 0 0;
+    }
+
+    li:nth-child(2) a div {
+        background-position: -100px -100px;
+        }
+        
+    li:nth-child(2) a:hover div {
+            background-position: -100px 0;
+            }
+    li:nth-child(3) a div {
+     background-position: -200px -100px;
+     }
+                
+   li:nth-child(3) a:hover div {
+ background-position: -200px 0;
+}
+li:nth-child(4) a div {
+background-position: -300px -100px;
+  }
+                        
+ li:nth-child(4) a:hover div {
+  background-position: -300px 0;
+     }

@@ -153,11 +153,18 @@ a{
     left:0;
     right:0;
     margin: 0 auto;
-    top:calc(50%-20px);
     display: flex;
     align-items: center;
     justify-content: center;
     word-break:break-all;
+}
+
+.button_card2 a, .button_card3 a, .button_card4 a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

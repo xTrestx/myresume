@@ -1,0 +1,305 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+* {
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .menu li {
+    width: 82px;
+    height: 51px;
+  
+    margin-right: 10px;
+    text-align: center;
+    line-height: 50px;
+  }
+  .menu li a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+  }
+   #topbar .container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)), url(../img/bg-01.jpg)  ;
+    
+    background-repeat: no-repeat;
+    background-position-x: -43px;
+    background-position-y: -201px;
+    background-size: 105% 820px;
+   }
+   
+  a.button {
+    display: flex;
+    box-sizing: border-box;
+    background: rgb(224, 6, 12);
+    background: linear-gradient(
+      90deg,
+      rgba(224, 6, 12, 1) 0%,
+      rgba(250, 49, 93, 1) 52%
+    );
+    justify-content: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-top: 52px;
+    width: 290px;
+    height: 53px;
+    color: white;
+    margin-top: 52px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .menu {
+    margin-left: 216px;
+  }
+
+  .menu li:hover {
+    background-color: rgb(186 27 52);
+    color: white;
+    /*216px margin-left*/
+  }
+  
+  .container:nth-child(2) {
+    width: 100%;
+    height: 500px;
+  
+    background: url(../img/bg-01.jpg) no-repeat -30px  -200px;
+  
+    /* background-size: 1415px 860px; */
+    background-size: 105% 860px;
+    
+    
+  }
+  .container h1 {
+    font-family: "Metal Mania";
+    font-size: 92px;
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+    text-decoration: uppercase;
+  }
+  
+  #tour {
+    width: 100%;
+    height: 320px;
+    background-color: rgb(56, 56, 56);
+    background-image: url(../img/bg.png);
+  
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(218,218,218);
+    font-size: 36px;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 39px;
+  }
+  .tour-card,
+  .madrid {
+    width: 198px;
+    height: 215px;
+  }
+  .tour-card {
+    
+    margin-right: 18px;
+  }
+  .tour-card * {
+    padding-left: 10px;
+  }
+  .tour-card .tour-town {
+    padding-top: 38px;
+  }
+  .tour-card .tour-place i {
+    padding-left: 0;
+  }
+  .tour-town, .tour-place {
+    color: white;
+  }
+  .tour-town {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .tour-date {
+    font-style: italic;
+    color: white;
+  }
+  .tour-card p {
+    padding-top: 12px;
+  }
+  
+  .madrid {
+    /* background-image: url(../img/tour/madrid.jpg); */
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url(../img/tour/madrid.jpg);
+    background-size: contain;
+  }
+   
+  
+  .turin {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url(../img/tour/turin.jpg);
+     
+    background-size: contain;
+  }
+  
+  .hamburg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url(../img/tour/hamburg.jpg);
+   
+    background-size: contain;
+  }
+  
+  .krakow {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url(../img/tour/krakow.jpg);
+    
+    background-size: contain;
+  }
+  .container:nth-child(3) {
+    width: 100%;
+  }
+  .tour-card {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .tour-card a.button {
+    display: block;
+    width: 144px;
+    height: 37px;
+    background: rgb(224, 6, 12);
+    background: linear-gradient(
+      90deg,
+      rgba(224, 6, 12, 1) 0%,
+      rgba(250, 49, 93, 1) 52%
+    );
+    margin-top: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  
+  /* General */
+  
+  /* Header */
+  
+  /* Tour */
+  
+  /* Gallery */
+  #gallery {
+    height: 740px;
+    background-image: url(../img/bg.png);
+    background-color: rgb(56, 56, 56);
+  }
+  
+  #gallery .container {
+    display: grid;
+    position: relative;
+    left: -5px;
+    grid-template-columns: repeat(3, 276px);
+    grid-gap: 18px;
+  
+    justify-content: center;
+  }
+  #gallery .container h2 {
+    margin-bottom: 40px;
+    grid-column: 1/-1;
+  }
+  
+  figure.photo a img {
+    width: 269px;
+    height: 269px;
+  }
+  /* Subscribe */
+  #subscribe {
+    height: 288px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)), url(../img/bg-02.jpg);
+    background-repeat:  no-repeat;
+    background-position-x:  -50px;
+    background-position-y:  -273px;
+    /* background-size: 1388px 843px; */
+    background-size: 110% 843px;
+  }
+  #subscribe .container h2 {
+    padding-top: 75px;
+    font-weight: 100;
+  }
+  #subscribe .container p {
+    text-align: center;
+    font-size: medium;
+    padding-top: 42px;
+    color: white;
+  }
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  .subscribe-form input {
+    width: 210px;
+    height: 40px;
+    padding-left:10px;
+  }
+  button {
+    width: 126px;
+    height: 42px;
+  overflow: hidden;
+    background: linear-gradient(
+      90deg,
+      rgba(224, 6, 12, 1) 0%,
+      rgba(250, 49, 93, 1) 52%
+    );
+    margin-left: 3px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  /* Footer */
+  footer {
+    width: 100%;
+    height: 97px;
+   
+  
+    background-color: rgb(56, 56, 56);
+  }
+  .social a {
+    padding-top: 30px;
+    color: white;
+    margin-right: 10px;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer .copyright {
+    text-align: center;
+    padding-top: 17px;
+    color: white;
+    margin-bottom: 23px;
+  }
+  
