@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "NewBaskervillel";
+    src: url("fonts/NewBaskervilleITCbyBT-Black.otf");
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(90deg, rgb(55, 47, 46) 0%, 2.85714%, rgb(78, 66, 64) 5.71429%, 52.8571%, rgb(90, 75, 72) 100%);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.wrap{
+    width: 940px;
+    height: 430px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 50px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+	 
+}
+ .wrapdish{
+	 margin-top: 16px;
+ }
+.sale_dish{
+width: 330px;
+height: 100%;
+background:url(../img/burger.jpg);
+background-position-y: -250px;
+position: relative;
+}
+.about_sale_dish{
+    width: 338px;
+    height: 212px;
+    background-color: black;
+    position: absolute;
+    bottom: 25px;
+    right: 3px;
+    text-align: center;
+}
+ 
+.menu{
+    width: 611px;
+    height: 100%;
+   
+}
+.name_sale_dish{
+    color: white;
+    font-family: 'NewBaskervillel';
+    font-size: 42px;
+    padding-top: 25px;
+}
+.head_text{    
+    height: 100px;
+    display: block;
+    text-align: center;
+    padding-top: 52px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.dish{
+    width: 202px;
+    text-align: center;
+    border-bottom: 1px solid silver;
+    margin-left: 71px;
+    margin-bottom: 7px;
+    position: relative;
+    padding-bottom: 19px;
+    display: inline-block;
+    margin-top: 12px;
+}
+.dish::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: silver;
+    position: absolute;
+    bottom: -5px;
+    transform: rotate(45deg);
+    left:95px;
+ 
+}
+.name_dish{
+    font-weight: 400;
+    font-size: 20px;
+ 
+}
+
+.price_dish{
+    color: rgb(153, 153, 153);
+    font-family: 'Manrope', sans-serif;
+     font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    padding-top: 5px;
+	overflow:hidden;
+    
+}
+p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+}
+.price_sale{
+    color: rgb(253, 202, 25);
+  
+}
+ 
+.all_menu{
+     display:inline-block;
+    position: absolute;
+    bottom: -65px;
+    right: 0;
+    width: 176px;
+    min-height: 55px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    padding-top: 16px;
+	overflow:hidden;
+}
